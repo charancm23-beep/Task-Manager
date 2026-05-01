@@ -11,7 +11,7 @@ from fastapi import Request
 from starlette.responses import JSONResponse
 
 from models import ScorecardInput, ScorecardOutput
-from engine.confidence import calculate_confidence
+#from engine.confidence import calculate_confidence
 from engine.clarity import calculate_clarity
 from engine.relevance import calculate_relevance
 from engine.suggestions import generate_suggestions
