@@ -16,6 +16,8 @@ dict with:
   "score"    – int 0-100
   "insights" – human-readable summary string
 """
+def calculate_confidence():
+    return 0.95
 
 
 def calculate_confidence(
